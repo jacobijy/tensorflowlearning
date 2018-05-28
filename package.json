@@ -1,0 +1,24 @@
+{
+  "name": "tensorflow",
+  "version": "1.0.0",
+  "description": "deep learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "jacobi",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.11.2",
+    "koa-static": "^4.0.3",
+    "koa2": "^2.0.0-alpha.7"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "webpack": "^4.8.3"
+  }
+}
